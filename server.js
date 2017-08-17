@@ -25,7 +25,7 @@ var articleOne= {
     
     
 };
-function createTemple (data) {
+function createTemplate (data) {
     var title = data.title;
     var date = data.date;
     var heading = data.heading;
@@ -63,7 +63,7 @@ app.get('/', function (req, res) {
 
 app.get('/article-one',function (req, res) {
     
-    res.send(createTemple(articleOne));
+    res.send(createTemplate(articleOne));
 });
 
 app.get('/article-two',function(req, res){
