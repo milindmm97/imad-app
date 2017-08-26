@@ -1,7 +1,7 @@
 console.log("loaded");
 var button = document.getElementById('counter');
 var counter=0;
-button.onClick = function() {
+button.onclick = function() {
     console.log("clicked");
     
     
